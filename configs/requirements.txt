@@ -1,0 +1,21 @@
+# Pin versions for Colab reproducibility
+# Last verified: May 2026
+
+torch>=2.5.0
+transformers>=4.53.0
+trl>=0.18.0
+peft>=0.14.0
+bitsandbytes>=0.45.0
+accelerate>=1.4.0
+datasets>=3.0.0
+wandb>=0.19.0
+lm-eval>=0.4.5
+vllm>=0.8.5
+flash-attn>=2.7.0     # install with --no-build-isolation
+scipy
+numpy
+pandas
+huggingface_hub>=0.27.0
+
+# Optional: Unsloth for 2x faster training
+# unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git
