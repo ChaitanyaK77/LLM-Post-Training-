@@ -1,4 +1,4 @@
-# LLM Post-Training Pipeline — Qwen3-8B
+# LLM Post-Training Pipeline-Qwen3-8B
 
 A reproducible single-GPU post-training pipeline for mathematical reasoning. Implements supervised fine-tuning with QLoRA, Direct Preference Optimization, and Group Relative Policy Optimization with verifiable rewards, evaluated on GSM8K.
 
@@ -204,7 +204,3 @@ Seeds are fixed at `42` for dataset partitioning and at `0` for lm-evaluation-ha
 ## License
 
 Released under the MIT License. The base model ([Qwen3-8B](https://huggingface.co/Qwen/Qwen3-8B)) and the primary training dataset ([OpenR1-Math-220k](https://huggingface.co/datasets/open-r1/OpenR1-Math-220k)) are independently licensed under Apache 2.0; consult their respective licenses for redistribution terms.
-
----
-
-Maintained by [Chaitanya Kakade](https://huggingface.co/Chaitanya77).
